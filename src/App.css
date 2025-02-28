@@ -15,22 +15,22 @@
 
 }
 
-.inicio img{
-  
-    width: 50px;
-   
-  
+.inicio img {
+
+  width: 50px;
+
+
 }
 
 .menu {
   display: flex;
   gap: 24px;
 
-  a{
+  a {
     color: gray;
     text-decoration: none;
     transition: color 1s ease;
-   
+
   }
 }
 
@@ -69,7 +69,7 @@
     justify-content: center;
     color: gray;
 
-   
+
 
   }
 
@@ -78,26 +78,27 @@
     width: 100%;
     flex-direction: column;
   }
+
   &:hover {
     scale: 1.1;
   }
-  
+
 }
 
-.final{
+.final {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.tudo{
+.tudo {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 100px;
-  
-  
+
+
 }
 
-.cidade{
+.cidade {
   display: flex;
   width: 300px;
   flex-direction: column;
